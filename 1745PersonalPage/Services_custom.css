@@ -1,0 +1,94 @@
+﻿
+/* change the background color */
+.navbar-custom {
+    background-color: #0055aa;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0055aa;
+    color: rgba(255,255,255,.8);
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url('images/grass_banner.jpg');
+}
+
+/* COMC1745 Exercise 3A styles */
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.c1, .c2, .c3 {
+    width: 100%;
+}
+
+.c1 {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    border-style: dotted;
+    border-color: darkgreen;
+    background-color: darkseagreen;
+}
+
+.c2 {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    border-style: dashed;
+    border-color: darkgreen;
+    background-color: lightgreen;
+}
+
+@media (min-width: 600px) {
+    .c2, .c3, .c4, .c5 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .c1 {
+        width: 50%;
+    }
+
+    .c2 {
+        width: 50%;
+    }
+
+    .c3 {
+        background-color: black;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
