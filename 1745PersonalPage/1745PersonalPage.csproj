@@ -63,7 +63,7 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="Contact_custom.css" />
-    <Content Include="Home.html" />
+    <Content Include="default.html" />
     <Content Include="Home_custom.css" />
     <Content Include="images\dirt-hand.jpg" />
     <Content Include="images\fertilizer.jpg" />
