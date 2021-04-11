@@ -1,0 +1,71 @@
+﻿form {
+    width: 80%;
+    margin: 0 auto;
+}
+label,
+input {
+    display: inline-block;
+}
+label {
+    width: 30%;
+    text-align: right;
+}
+label + input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+input + input  {
+    float: right;
+}
+select {
+    float: right;
+    margin: 0 40% 0 4%;
+}
+nav {
+    color: black;
+    background-color:darkseagreen;
+    display: block;
+}
+navbar {
+    color: black;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+/* change the background color */
+.navbar-custom {
+    background-color: #0055aa;
+}
+    /* change the brand and text color */
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: rgba(255,255,255,.8);
+    }
+    /* change the link color */
+    .navbar-custom .navbar-nav .nav-link {
+        color: rgba(255,255,255,.5);
+    }
+    /* change the color of active or hovered links */
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link {
+        color: #ffffff;
+    }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0055aa;
+    color: rgba(255,255,255,.8);
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url('images/grass_banner.jpg');
+}

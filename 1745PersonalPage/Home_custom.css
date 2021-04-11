@@ -1,4 +1,21 @@
-﻿
+﻿nav {
+    color: black;
+    background-color: darkseagreen;
+    display: block;
+}
+
+navbar {
+    color: black;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+
 /* change the background color */
 .navbar-custom {
     background-color: #0055aa;
@@ -85,4 +102,33 @@
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+/*Slide Show*/
+
+.slideshow{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+carousel {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size:24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }

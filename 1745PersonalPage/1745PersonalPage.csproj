@@ -72,11 +72,17 @@
     <Content Include="images\grass_banner.jpg" />
     <Content Include="images\hose-fert.jpg" />
     <Content Include="images\lawn-banner.jpg" />
+    <Content Include="images\Lawn_Slide1.jpg" />
+    <Content Include="images\Lawn_slide2.jpg" />
     <Content Include="images\mowing.jpg" />
+    <Content Include="MeetUs.css" />
+    <Content Include="MeetUs.html" />
     <Content Include="Prices.html" />
     <Content Include="Prices_custom.css" />
     <Content Include="Services.html" />
     <Content Include="Services_custom.css" />
+    <Content Include="SignUp.css" />
+    <Content Include="SignUp.html" />
     <Content Include="TipsTricks.html" />
     <Content Include="TipsTricks_custom.css" />
     <Content Include="Web.config" />

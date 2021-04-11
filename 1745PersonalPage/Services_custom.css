@@ -1,4 +1,21 @@
-﻿
+﻿nav {
+    color: black;
+    background-color: darkseagreen;
+    display: block;
+}
+
+navbar {
+    color: black;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+
 /* change the background color */
 .navbar-custom {
     background-color: #0055aa;
