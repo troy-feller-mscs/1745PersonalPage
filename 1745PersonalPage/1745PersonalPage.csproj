@@ -53,6 +53,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LICENSE" />
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -63,6 +65,8 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="Contact_custom.css" />
+    <Content Include="css\materialize.css" />
+    <Content Include="css\materialize.min.css" />
     <Content Include="default.html" />
     <Content Include="Home_custom.css" />
     <Content Include="images\dirt-hand.jpg" />
@@ -75,10 +79,13 @@
     <Content Include="images\Lawn_Slide1.jpg" />
     <Content Include="images\Lawn_slide2.jpg" />
     <Content Include="images\mowing.jpg" />
+    <Content Include="js\materialize.js" />
+    <Content Include="js\materialize.min.js" />
     <Content Include="MeetUs.css" />
     <Content Include="MeetUs.html" />
     <Content Include="Prices.html" />
     <Content Include="Prices_custom.css" />
+    <Content Include="Schedule.html" />
     <Content Include="Services.html" />
     <Content Include="Services_custom.css" />
     <Content Include="SignUp.css" />
